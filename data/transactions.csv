@@ -1,4 +1,21 @@
-# transactions.csv - Example of manual transaction log
-Date,Type,Crypto,Amount,Price_USD,Fee_USD,Exchange
-2023-01-15,BUY,bitcoin,0.01,20000.0,5.0,Binance
-2023-02-01,SELL,ethereum,0.5,1500.0,2.0,Coinbase
+
+# utils/calculations.py - For portfolio-related calculations
+
+def calculate_total_value(holdings, current_prices):
+    total_usd = 0
+    for crypto, amount in holdings.items():
+        price = current_prices.get(crypto)
+        if price:
+            total_usd += amount * price
+    return total_usd
+
+def calculate_pnl(current_value, invested_amount):
+    return current_value - invested_amount
+
+# ... other calculation functions
+
+if __name__ == "__main__":
+    sample_holdings = {"bitcoin": 0.05, "ethereum": 0.3}
+    sample_prices = {"bitcoin": 30000, "ethereum": 1800}
+    total = calculate_total_value(sample_holdings, sample_prices)
+    print(f"Total Portfolio Value: ${total}")
