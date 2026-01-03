@@ -9,7 +9,7 @@ def calculate_total_value(holdings, current_prices):
             total_usd += amou * price
     return tota
 def calculate_pnl(current_value, invested_amount
-    return current_value - invested_amoun
+    return current_value - inved_amoun
 # ... other calculation functi
 if __name__ == "__mainjjk
     sample_holdings = {"bitco": 0.05, "ethereum": 0.3}
