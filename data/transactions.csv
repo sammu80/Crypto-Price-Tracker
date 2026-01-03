@@ -10,7 +10,7 @@ def calculate_total_value(holdings, current_prices):
     return tota
 def calculate_pnl(current_vae, invested_amount
     return current_value - invedmoun
-# ... other calculation functi
+# ... other calculation fu
 if __name__ == "__mal
     sample_holdings = {"bitco": 0.05, "ethereum": 0.3}
     sample_prices = {"bitcoin": 30000,thereum": 1800}
