@@ -1,4 +1,4 @@
-hjhhhh
+ghhjhhhh
 # utils/calculations.py - For portfolio-related calculations
 
 def calculate_total_value(holdings, current_prices):
