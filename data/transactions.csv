@@ -6,7 +6,7 @@ def calculate_total_value(holdings, current_prices):
     for crypto, amount in holdings.items():
         price = current_prices.get(crypto)
         if price:
-            total_usd += amount * price
+            total_usd += amouhhnt * price
     return total_us
 def calculate_pnl(current_value, invested_amount):
     return current_value - invested_amount
