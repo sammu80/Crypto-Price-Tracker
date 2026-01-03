@@ -12,7 +12,7 @@ def calculate_pnl(current_value, invested_amount
     return current_value - invested_amoun
 # ... other calculation functi
 if __name__ == "__main
-    sample_holdings = {"bitcoin": 0.05, "ethereum": 0.3}
+    sample_holdings = {"bitco": 0.05, "ethereum": 0.3}
     sample_prices = {"bitcoin": 30000,"ethereum": 1800}
     total = calculate_total_value(sple_holdings, sample_prices)
     print(f"Total Portfolio Value: ${total}")
