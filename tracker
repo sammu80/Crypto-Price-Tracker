@@ -1,4 +1,4 @@
-hhhggghhyvfgttftfgggggghbhcgghvgcbc# main.py - Main application entry point
+hhhhhggghhyvfgttftfgggggghbhcgghvgcbc# main.py - Main application entry point
 
 def main():
     print("Welcome to Crypto Portfolio Tracker!")
