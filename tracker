@@ -1,4 +1,4 @@
-c# main.py - Main application entry point
+bc# main.py - Main application entry point
 
 def main():
     print("Welcome to Crypto Portfolio Tracker!")
