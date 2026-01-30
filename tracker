@@ -1,11 +1,1 @@
-hhhhhggghhyvfgttftfgggggghbhcgghvgcbc# main.py - Main application entry point
-
-def main():
-    print("Welcome to Crypto Portfolio Tracker!")
-    # Your main application logic will go here
-    # E.g., fetch prices, display portfolio, take user input
-
-if __name__ == "__main__":
-    main()
-hh
-t
+j
